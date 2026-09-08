@@ -58,8 +58,8 @@ export const mockProduct = {
   lifestyleImages: [
     {
       id: "life-detail",
-      url: "https://cbu01.alicdn.com/img/ibank/O1CN01R7BIRC1Bs2x3N3C4l_!!0-0-cib.jpg",
-      alt: "VOLTJET cordless washer held in hand, spraying a steady high-pressure stream",
+      url: "https://media.base44.com/images/public/6a9f840e4db399f33c4ec36c/313acf51f_generated_image.png",
+      alt: "VOLTJET cordless washer detail — battery, pump housing, quick-connect nozzles",
     },
     {
       id: "life-livingroom",
