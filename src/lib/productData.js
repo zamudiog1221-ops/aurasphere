@@ -48,7 +48,7 @@ export const mockProduct = {
     },
     {
       id: "img-5",
-      url: "https://file.zendrop.com/products/e0/55/2bc274684ca7a0c78003c23b56cf.jpeg",
+      url: "https://media.base44.com/images/public/6a9f840e4db399f33c4ec36c/e135090fd_generated_image.png",
       alt: "VOLTJET in use blasting mud off a car wheel",
       variantId: "var-single",
     },
@@ -63,7 +63,7 @@ export const mockProduct = {
     },
     {
       id: "life-livingroom",
-      url: "https://cbu01.alicdn.com/img/ibank/O1CN01D5Nxi81Bs2x4cdrAs_!!0-0-cib.jpg",
+      url: "https://media.base44.com/images/public/6a9f840e4db399f33c4ec36c/28b34ee1d_generated_image.png",
       alt: "VOLTJET cleaning a motorcycle in a driveway",
     },
     {
@@ -73,7 +73,7 @@ export const mockProduct = {
     },
     {
       id: "life-cta",
-      url: "https://cbu01.alicdn.com/img/ibank/O1CN019ISaQV1Bs2x2aoxCA_!!0-0-cib.jpg",
+      url: "https://media.base44.com/images/public/6a9f840e4db399f33c4ec36c/cb19ddd05_generated_image.png",
       alt: "VOLTJET washing a car, water arcing in the sun",
     },
   ],
