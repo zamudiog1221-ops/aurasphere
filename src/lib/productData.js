@@ -15,7 +15,7 @@ export const mockProduct = {
   subtitle: "Cordless High-Pressure Car Washer",
   description:
     "A wireless, lithium-powered high-pressure washer that pulls water from any bucket, tap, or bottle. No cords, no tethered hose — just industrial-grade cleaning power you can take anywhere. 2.9L/min flow, self-priming pump, and a battery that outlasts the job.",
-  price: "69.99",
+  price: "79.99",
   compareAtPrice: "129.99",
   currency: "USD",
   currencySymbol: "$",
@@ -94,7 +94,7 @@ export const mockProduct = {
     {
       id: "var-single",
       title: "Single Unit",
-      price: "69.99",
+      price: "79.99",
       compareAtPrice: "129.99",
       available: true,
       inventory: 120,
