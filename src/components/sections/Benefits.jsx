@@ -1,9 +1,9 @@
 import React from "react";
-import { Droplet, Flame, Leaf } from "lucide-react";
+import { Droplet, Flame, Leaf, Battery, Gauge } from "lucide-react";
 import { useProduct } from "@/context/ProductContext";
 import Reveal from "@/components/Reveal";
 
-const ICONS = { droplet: Droplet, flame: Flame, leaf: Leaf };
+const ICONS = { droplet: Droplet, flame: Flame, leaf: Leaf, battery: Battery, gauge: Gauge };
 
 export default function Benefits() {
   const { product } = useProduct();
@@ -14,9 +14,9 @@ export default function Benefits() {
     <section className="bg-carbon hairline-t py-20 md:py-32">
       <div className="mx-auto max-w-gallery px-5 md:px-10">
         <Reveal className="max-w-2xl mb-14 md:mb-20">
-          <p className="eyebrow mb-5">Why LUMEN</p>
+          <p className="eyebrow mb-5">Why VOLTJET</p>
           <h2 className="font-display text-4xl md:text-6xl leading-[1.02] text-alabaster text-balance">
-            Three reasons it earns its surface.
+            Three reasons it earns its spot in the trunk.
           </h2>
         </Reveal>
 

@@ -6,8 +6,8 @@ const COLS = [
   {
     title: "Shop",
     links: [
-      { label: "LUMEN Diffuser", href: "#" },
-      { label: "Essential Oils", href: "#" },
+      { label: "VOLTJET Washer", href: "#shop" },
+      { label: "Bundles", href: "#shop" },
       { label: "Accessories", href: "#" },
       { label: "Gift Sets", href: "#" },
     ],
@@ -50,13 +50,13 @@ export default function Footer() {
       <div className="mx-auto max-w-gallery px-5 md:px-10 py-16 md:py-24">
         <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-end">
           <div>
-            <p className="eyebrow mb-4">The Quiet List</p>
+            <p className="eyebrow mb-4">The Garage List</p>
             <h2 className="font-display text-3xl md:text-5xl leading-[1.05] text-alabaster text-balance">
-              Atmosphere, in your inbox.
+              Cleaner rides, in your inbox.
             </h2>
             <p className="mt-4 text-slate2 max-w-md text-[0.95rem] leading-relaxed">
-              Early access to new finishes, seasonal rituals, and the occasional
-              note on building a calmer home. No noise.
+              Early access to bundles, new accessories, and the occasional note
+              on detailing smarter. No noise.
             </p>
           </div>
           <form onSubmit={submit} className="w-full">
@@ -93,11 +93,11 @@ export default function Footer() {
           <div className="grid grid-cols-2 md:grid-cols-5 gap-10">
             <div className="col-span-2">
               <Link to="/" className="font-display text-3xl tracking-[0.18em] text-alabaster">
-                LUMEN
+                VOLTJET
               </Link>
               <p className="mt-5 text-slate2 text-sm leading-relaxed max-w-xs">
-                Objects for the modern sanctuary. Designed to be felt before
-                they are noticed.
+                Cordless high-pressure cleaning for the car, the garage, and
+                everything beyond the driveway.
               </p>
               <div className="flex items-center gap-5 mt-7">
                 {[Instagram, Twitter, Youtube].map((Icon, i) => (
@@ -133,10 +133,10 @@ export default function Footer() {
 
           <div className="hairline-t mt-14 pt-7 flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-xs text-slate2 font-mono-data tracking-wide">
-              © {new Date().getFullYear()} LUMEN. ALL RIGHTS RESERVED.
+              © {new Date().getFullYear()} VOLTJET. ALL RIGHTS RESERVED.
             </p>
             <p className="text-xs text-slate2">
-              Designed for the modern sanctuary.
+              Cordless power, anywhere there's water.
             </p>
           </div>
         </div>

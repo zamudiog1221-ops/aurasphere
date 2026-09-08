@@ -47,7 +47,7 @@ export default function FinalCta() {
             <Reveal className="px-6 md:px-16 max-w-xl">
               <p className="eyebrow mb-5 text-amber">Bring it home</p>
               <h2 className="font-display text-4xl md:text-6xl leading-[1.02] text-alabaster text-balance mb-5">
-                The room you want is one object away.
+                A cleaner ride is one squeeze away.
               </h2>
               <p className="text-alabaster/80 leading-relaxed mb-7 max-w-md">
                 {product.description}

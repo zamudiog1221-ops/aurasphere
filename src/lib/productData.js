@@ -9,14 +9,14 @@
 // =============================================================================
 
 export const mockProduct = {
-  id: "gid://shopify/Product/1001",
-  handle: "lumen-atmospheric-aroma-diffuser",
-  title: "LUMEN",
-  subtitle: "Atmospheric Aroma Diffuser",
+  id: "gid://shopify/Product/2617834",
+  handle: "voltjet-cordless-high-pressure-car-washer",
+  title: "VOLTJET",
+  subtitle: "Cordless High-Pressure Car Washer",
   description:
-    "An ultrasonic aroma diffuser engineered as a quiet, glowing centerpiece for the modern sanctuary. Whisper-quiet mist, a warm ambient halo, and a matte obsidian form that disappears into the room — until it lights it.",
-  price: "89.00",
-  compareAtPrice: "120.00",
+    "A wireless, lithium-powered high-pressure washer that pulls water from any bucket, tap, or bottle. No cords, no tethered hose — just industrial-grade cleaning power you can take anywhere. 2.9L/min flow, self-priming pump, and a battery that outlasts the job.",
+  price: "69.99",
+  compareAtPrice: "129.99",
   currency: "USD",
   currencySymbol: "$",
 
@@ -24,86 +24,92 @@ export const mockProduct = {
   images: [
     {
       id: "img-1",
-      url: "https://media.base44.com/images/public/6a9f840e4db399f33c4ec36c/c0b14fa8b_generated_4cae9ab5.jpg",
-      alt: "LUMEN matte black aroma diffuser emitting warm amber mist in a concrete room",
-      variantId: "var-black",
+      url: "https://file.zendrop.com/products/32/b4/f59074504567bd2bddcd27ce1c09.png",
+      alt: "VOLTJET cordless high-pressure car washer, white, full unit with spray gun",
+      variantId: "var-single",
     },
     {
       id: "img-2",
-      url: "https://media.base44.com/images/public/6a9f840e4db399f33c4ec36c/7e91d776e_generated_b1d2d39a.jpg",
-      alt: "LUMEN black diffuser three-quarter product view on a dark pedestal",
-      variantId: "var-black",
+      url: "https://file.zendrop.com/products/a9/b5/e04d66bb4cc5afac9354ddf6be80.png",
+      alt: "VOLTJET car washer three-quarter view showing lithium battery pack",
+      variantId: "var-single",
     },
     {
       id: "img-3",
-      url: "https://media.base44.com/images/public/6a9f840e4db399f33c4ec36c/93a777176_generated_8b161722.jpg",
-      alt: "LUMEN off-white ceramic diffuser variant on pale stone",
-      variantId: "var-white",
+      url: "https://file.zendrop.com/products/f4/68/4cc2e46d41a8b860052526454858.png",
+      alt: "VOLTJET spray gun detail with interchangeable nozzles",
+      variantId: "var-single",
     },
     {
       id: "img-4",
-      url: "https://media.base44.com/images/public/6a9f840e4db399f33c4ec36c/ce3491e2b_generated_c6052bb8.jpg",
-      alt: "Macro detail of fine mist rising from the LUMEN nozzle, backlit amber",
-      variantId: "var-black",
+      url: "https://file.zendrop.com/products/03/e9/39b839a144c4a5d64029314cfbdc.png",
+      alt: "VOLTJET water intake hose and self-priming pump detail",
+      variantId: "var-single",
+    },
+    {
+      id: "img-5",
+      url: "https://file.zendrop.com/products/e0/55/2bc274684ca7a0c78003c23b56cf.jpeg",
+      alt: "VOLTJET in use blasting mud off a car wheel",
+      variantId: "var-single",
     },
   ],
 
   // Editorial / showcase imagery (not part of the gallery rail)
   lifestyleImages: [
     {
-      id: "life-bedside",
-      url: "https://media.base44.com/images/public/6a9f840e4db399f33c4ec36c/8ca20a394_generated_8b9f1d88.jpg",
-      alt: "LUMEN diffuser glowing on a minimalist bedside table",
+      id: "life-detail",
+      url: "https://cbu01.alicdn.com/img/ibank/O1CN01R7BIRC1Bs2x3N3C4l_!!0-0-cib.jpg",
+      alt: "VOLTJET cordless washer held in hand, spraying a steady high-pressure stream",
     },
     {
       id: "life-livingroom",
-      url: "https://media.base44.com/images/public/6a9f840e4db399f33c4ec36c/9f5fdda14_generated_e748b497.jpg",
-      alt: "LUMEN diffuser on a wooden console in a concrete living room",
+      url: "https://cbu01.alicdn.com/img/ibank/O1CN01D5Nxi81Bs2x4cdrAs_!!0-0-cib.jpg",
+      alt: "VOLTJET cleaning a motorcycle in a driveway",
     },
     {
       id: "life-flatlay",
-      url: "https://media.base44.com/images/public/6a9f840e4db399f33c4ec36c/36e841bb2_generated_d014902a.jpg",
-      alt: "Overhead flatlay of LUMEN with essential oil bottles and botanicals",
+      url: "https://cbu01.alicdn.com/img/ibank/O1CN01UblHbG1Bs2x7GacrL_!!0-0-cib.jpg",
+      alt: "VOLTJET and accessories laid out — battery, hose, nozzles, foam bottle",
     },
     {
       id: "life-cta",
-      url: "https://media.base44.com/images/public/6a9f840e4db399f33c4ec36c/beb824e1b_generated_81f74bb1.jpg",
-      alt: "LUMEN diffuser as a single warm glow in a dark sanctuary room",
+      url: "https://cbu01.alicdn.com/img/ibank/O1CN019ISaQV1Bs2x2aoxCA_!!0-0-cib.jpg",
+      alt: "VOLTJET washing a car, water arcing in the sun",
     },
   ],
 
   // Variant options (Shopify "options" -> "variants" model)
   options: [
     {
-      id: "color",
-      name: "Finish",
+      id: "bundle",
+      name: "Bundle",
       values: [
-        { value: "Obsidian", id: "var-black" },
-        { value: "Alabaster", id: "var-white" },
+        { value: "Single Unit", id: "var-single" },
+        { value: "Double Pack", id: "var-double" },
       ],
     },
   ],
 
   variants: [
     {
-      id: "var-black",
-      title: "Obsidian",
-      price: "89.00",
-      compareAtPrice: "120.00",
+      id: "var-single",
+      title: "Single Unit",
+      price: "69.99",
+      compareAtPrice: "129.99",
       available: true,
-      inventory: 42,
+      inventory: 120,
       imageId: "img-1",
-      selectedOptions: { Finish: "Obsidian" },
+      selectedOptions: { Bundle: "Single Unit" },
     },
     {
-      id: "var-white",
-      title: "Alabaster",
-      price: "89.00",
-      compareAtPrice: "120.00",
+      id: "var-double",
+      title: "Double Pack",
+      price: "124.99",
+      compareAtPrice: "259.98",
       available: true,
-      inventory: 18,
-      imageId: "img-3",
-      selectedOptions: { Finish: "Alabaster" },
+      inventory: 48,
+      imageId: "img-1",
+      selectedOptions: { Bundle: "Double Pack" },
     },
   ],
 
@@ -113,66 +119,66 @@ export const mockProduct = {
 
   // Conversion / trust signals
   trustBadges: [
-    "Free shipping over $75",
+    "Free US shipping",
+    "Avg. 8-day delivery",
     "30-day returns",
-    "2-year warranty",
   ],
 
   benefits: [
     {
       id: "b1",
-      icon: "droplet",
-      title: "Ultrasonic Stillness",
-      copy: "A near-silent mist that humidifies and disperses aroma without heat, preserving the integrity of every oil.",
+      icon: "battery",
+      title: "Cordless Freedom",
+      copy: "A built-in lithium battery means no outlets, no extension cords, no being chained to a tap. Grab it and go — the driveway, the trail, the campsite.",
     },
     {
       id: "b2",
-      icon: "flame",
-      title: "Ambient Halo",
-      copy: "A tunable warm glow doubles as a low-light lamp, turning any surface into a quiet focal point after dark.",
+      icon: "droplet",
+      title: "2.9L/min High Pressure",
+      copy: "An industrial-grade pump delivers a relentless 2.9 liters per minute, lifting caked mud, salt, and grime off paint, wheels, and glass without a scratch.",
     },
     {
       id: "b3",
-      icon: "leaf",
-      title: "Pure by Design",
-      copy: "BPA-free reservoir, auto-shutoff when empty, and a matte finish that resists fingerprints and dust.",
+      icon: "gauge",
+      title: "Versatile by Nature",
+      copy: "Cars, motorcycles, bikes, garden furniture, patios, even air-conditioning units. One self-priming tool replaces a whole shelf of cleaning gear.",
     },
   ],
 
   problemSolution: {
     problem: {
-      title: "The room feels unfinished after dark.",
-      copy: "Harsh overhead lighting, dry air, and synthetic air fresheners leave a space feeling sterile — never restful.",
+      title: "A clean car shouldn't cost your whole afternoon.",
+      copy: "Dragging out a heavy pressure washer, hunting for a working outdoor tap, untangling a 50-foot hose, and fighting the cord — or paying for a car wash every single week.",
     },
     solution: {
-      title: "One object changes the atmosphere.",
-      copy: "LUMEN replaces the clutter of a lamp, a humidifier, and a candle with a single quiet form — light, moisture, and scent in one.",
+      title: "Cordless power, anywhere there's water.",
+      copy: "VOLTJET self-primes from any bucket, bottle, or tap and runs on a lithium battery. No tap, no cord, no fuss — just high-pressure cleaning wherever you park.",
     },
   },
 
   showcase: [
     {
       id: "s1",
-      eyebrow: "In the bedroom",
-      title: "A glow that winds you down.",
-      copy: "Set to the lowest warm setting beside the bed and LUMEN becomes a slow, breathing presence — mist curling softly as the room settles.",
-      imageId: "life-bedside",
+      eyebrow: "At the car",
+      title: "Pressure that travels.",
+      copy: "Drop the intake hose into a bucket, squeeze the trigger, and watch baked-on mud lift off in seconds. No tap, no cord, no dragging a full-size washer across the driveway.",
+      imageId: "life-cta",
       align: "left",
     },
     {
       id: "s2",
-      eyebrow: "In the living room",
-      title: "Architecture you can smell.",
-      copy: "On a console or side table, the matte form reads as sculpture by day and a warm anchor by night.",
+      eyebrow: "Beyond the car",
+      title: "One tool, a cleaner everything.",
+      copy: "Motorcycles, mountain bikes, garden furniture, patios, even the AC unit on the balcony. VOLTJET swaps between foam and rinse nozzles to handle every surface.",
       imageId: "life-livingroom",
       align: "right",
     },
     {
       id: "s3",
       eyebrow: "The detail",
-      title: "Mist, studied closely.",
-      copy: "A backlit nozzle produces a vapor fine enough to drift, never to wet — engineered for scent throw without residue.",
-      imageId: "img-4",
+      title: "Built for the long haul.",
+      copy: "A sealed lithium pack, a reinforced pump housing, and quick-connect nozzles. Every part is engineered to survive regular use in sun, mud, and rain.",
+      imageId: "life-detail",
       align: "left",
     },
   ],
@@ -181,37 +187,38 @@ export const mockProduct = {
     {
       category: "Key features",
       items: [
-        "Ultrasonic nebulizing technology — no heat, no noise",
-        "Tunable warm-white ambient light (3 levels + off)",
-        "Continuous and intermittent mist modes",
-        "Auto-shutoff when the reservoir runs dry",
+        "Fully cordless — rechargeable lithium battery, no outlet needed",
+        "Self-priming pump draws from any bucket, bottle, or tap",
+        "Maximum flow rate of 2.9L/min for fast, efficient cleaning",
+        "Interchangeable nozzles: high-pressure jet and foam dispenser",
       ],
     },
     {
-      category: "Materials",
+      category: "Power & Performance",
       items: [
-        "Matte BPA-free polymer body",
-        "Ceramic-feel base ring",
-        "Stainless steel mist nozzle",
+        "Battery: rechargeable lithium-ion",
+        "Max flow rate: 2.9 L/min",
+        "Self-priming water intake — no mains pressure required",
+        "Cordless trigger operation with instant on/off",
       ],
     },
     {
       category: "Specifications",
       items: [
-        'Capacity: 300 ml',
-        'Runtime: up to 10 hours (intermittent)',
-        'Coverage: recommended for rooms up to 30 m²',
-        'Power: USB-C, 5V / 1A (adapter included)',
+        "Color: White (XS-00A-White-Standard)",
+        "Power source: Lithium battery (included)",
+        "Water source: Bucket / bottle / tap (self-priming)",
+        "Avg. processing & shipping: 8 days to US",
       ],
     },
     {
       category: "What's included",
       items: [
-        "1 × LUMEN diffuser",
-        "1 × USB-C power cable",
-        "1 × USB wall adapter",
-        "1 × Cleaning brush",
-        "1 × Quick-start guide",
+        "1 × VOLTJET washer host",
+        "1 × Rechargeable lithium battery",
+        "1 × Charger",
+        "1 × High-pressure hose",
+        "Interchangeable nozzles (jet + foam)",
       ],
     },
   ],
@@ -219,45 +226,45 @@ export const mockProduct = {
   howItWorks: [
     {
       step: "01",
-      title: "Fill",
-      copy: "Lift the top and fill the reservoir with cold tap water to the line.",
+      title: "Charge & Fill",
+      copy: "Charge the lithium battery and drop the intake hose into any bucket, bottle, or tap — VOLTJET self-primes, so no mains pressure is needed.",
     },
     {
       step: "02",
-      title: "Add",
-      copy: "Add 5–8 drops of your favorite essential oil to the water.",
+      title: "Power On",
+      copy: "Squeeze the trigger. The high-pressure pump kicks in instantly, delivering a steady 2.9L/min stream.",
     },
     {
       step: "03",
-      title: "Set",
-      copy: "Choose your mist mode and light level, then let the room transform.",
+      title: "Blast & Rinse",
+      copy: "Switch to the foam nozzle to lift dirt, then swap to the jet nozzle to rinse clean. Done — anywhere you parked.",
     },
   ],
 
   faqs: [
     {
-      q: "How does the diffuser work?",
-      a: "LUMEN uses high-frequency ultrasonic vibrations to break water and essential oils into a fine, cool mist — without heat, preserving the oils' character.",
+      q: "Does it need to be plugged in?",
+      a: "No. VOLTJET runs on a rechargeable lithium battery, so it works completely cordless — no outlet, no extension cord, no being tethered to a wall.",
     },
     {
-      q: "How do I use it?",
-      a: "Fill the reservoir with water, add a few drops of essential oil, and select your mist and light settings. A full guide is included in the box.",
+      q: "Where does the water come from?",
+      a: "VOLTJET is self-priming. Drop the intake hose into any bucket, water bottle, or tap and the pump draws water on its own — no mains water pressure required.",
     },
     {
-      q: "What is included?",
-      a: "Every LUMEN ships with the diffuser, a USB-C cable, a wall adapter, a cleaning brush, and a quick-start guide.",
+      q: "How much water does it use?",
+      a: "It delivers a maximum flow rate of 2.9 liters per minute, giving you efficient, high-pressure cleaning without wasting water.",
+    },
+    {
+      q: "Is it only for cars?",
+      a: "Not at all. VOLTJET is a true multitasker — use it on motorcycles, bikes, garden furniture, patios, boats, and even air-conditioning units.",
+    },
+    {
+      q: "What's included in the box?",
+      a: "Every VOLTJET ships with the washer host, a rechargeable lithium battery, a charger, a high-pressure hose, and interchangeable jet and foam nozzles.",
     },
     {
       q: "How long does shipping take?",
-      a: "Orders are processed within 1–2 business days. Standard delivery times will be confirmed at checkout based on your location.",
-    },
-    {
-      q: "What are the product dimensions?",
-      a: "LUMEN measures approximately 168 mm tall × 110 mm wide. Full specifications are listed in the Details section above.",
-    },
-    {
-      q: "Is it easy to clean?",
-      a: "Yes — the open reservoir wipes clean with the included brush and a soft cloth. We recommend a rinse every 1–2 weeks.",
+      a: "Orders ship to the United States with an average delivery time of 8 days. Processing times are confirmed at checkout based on your location.",
     },
     {
       q: "What is your return policy?",

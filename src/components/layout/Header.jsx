@@ -59,7 +59,7 @@ export default function Header() {
             to="/"
             className="font-display text-2xl md:text-3xl tracking-[0.18em] text-alabaster select-none"
           >
-            LUMEN
+            VOLTJET
           </Link>
 
           {/* Right: actions */}
