@@ -26,7 +26,7 @@ export default function Hero() {
   const handleSelect = (name, value) =>
     setSelectedOptions((prev) => ({ ...prev, [name]: value }));
 
-  if (loading || !product) {
+  if (loading || !product || !selectedOptions) {
     return (
       <section className="min-h-screen flex items-center justify-center bg-carbon">
         <div className="w-7 h-7 border border-white/20 border-t-amber rounded-full animate-spin" />
