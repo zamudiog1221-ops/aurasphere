@@ -32,10 +32,11 @@ export async function getProduct(handle) {
  * @param {Record<string,string>} selectedOptions e.g. { Finish: "Obsidian" }
  */
 export function getVariantForOptions(product, selectedOptions) {
+  if (!product?.variants?.length) return null;
   return (
     product.variants.find((v) =>
-      Object.entries(selectedOptions).every(
-        ([key, val]) => v.selectedOptions[key] === val
+      Object.entries(selectedOptions ?? {}).every(
+        ([key, val]) => v.selectedOptions?.[key] === val
       )
     ) ?? product.variants[0]
   );
