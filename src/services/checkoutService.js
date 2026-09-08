@@ -10,8 +10,9 @@
 // Shopify's Storefront API `checkoutCreate` and return the webUrl from there.
 // =============================================================================
 
-// TODO: set by the developer wiring up Shopify, e.g. "store.myshopify.com"
-const SHOPIFY_DOMAIN = "";
+// TODO: point this at your connected custom domain once one is set up;
+// the .myshopify.com domain works fine for checkout in the meantime.
+const SHOPIFY_DOMAIN = "kxtvcp-ec.myshopify.com";
 
 /**
  * Build a Shopify cart permalink from line items.

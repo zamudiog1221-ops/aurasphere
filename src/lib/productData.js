@@ -9,7 +9,7 @@
 // =============================================================================
 
 export const mockProduct = {
-  id: "gid://shopify/Product/2617834",
+  id: "gid://shopify/Product/9380636721304",
   handle: "voltjet-cordless-high-pressure-car-washer",
   title: "VOLTJET",
   subtitle: "Cordless High-Pressure Car Washer",
@@ -92,22 +92,22 @@ export const mockProduct = {
 
   variants: [
     {
-      id: "var-single",
+      id: "49847383916696",
       title: "Single Unit",
       price: "79.99",
       compareAtPrice: "129.99",
       available: true,
-      inventory: 120,
+      inventory: 500,
       imageId: "img-1",
       selectedOptions: { Bundle: "Single Unit" },
     },
     {
-      id: "var-double",
+      id: "49847383949464",
       title: "Double Pack",
       price: "124.99",
       compareAtPrice: "259.98",
       available: true,
-      inventory: 48,
+      inventory: 200,
       imageId: "img-1",
       selectedOptions: { Bundle: "Double Pack" },
     },
